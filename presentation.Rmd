@@ -7,6 +7,10 @@ Here’s some code
 
 ```{r}
 library(tidyverse)
+library(ggmap)
+library(maps)
+library(mapdata)
+library(dplyr)
 ```
 
 ```{r}
@@ -174,13 +178,6 @@ ggplot(data=fraud_by_state)+
 ```{r}
 cc_by_state <- data %>% group_by(state) %>%
   summarise(Total=sum(amt)/1000, Count=n()) %>% arrange(state)
-```
-
-```{r}
-library(ggmap)
-library(maps)
-library(mapdata)
-library(dplyr)
 ```
 
 ```{r}
