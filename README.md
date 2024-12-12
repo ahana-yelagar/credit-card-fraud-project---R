@@ -12,6 +12,11 @@ The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/kartik2112
 ### Data Format
 The dataset includes various fields such as transaction details, customer demographics, and merchant information. Key variables include `trans_date_trans_time`, `amount`, `gender`, `state`, `merchant`, and `category`.
 
+## File and Folder Structure
+- `project_code.Rmd`: RMarkdown file containing all code for data preparation, analysis, and visualization.
+- `README.md`: This file, describing the project and reproduction instructions.
+- `plots/`: Directory for saving output plots and visualizations (generated during execution).
+
 ### Preparation Steps
 1. Verified the dataset for missing values and correct data types; no missing values were found.
 2. Transformed the `trans_date_trans_time` field into a datetime format (`tr_datetime`) using `dmy_hm()`.
@@ -55,9 +60,4 @@ Fraud detection is critical in safeguarding financial systems and protecting con
 
 Additionally, the analysis raises awareness of ethical considerations in data usage and privacy, bridging technical capabilities with societal impact.
 
-## File and Folder Structure
-- `project_code.Rmd`: RMarkdown file containing all code for data preparation, analysis, and visualization.
-- `README.md`: This file, describing the project and reproduction instructions.
-- `data/`: Directory where the Kaggle dataset should be stored (not included in the repository due to size).
-- `plots/`: Directory for saving output plots and visualizations (generated during execution).
 
