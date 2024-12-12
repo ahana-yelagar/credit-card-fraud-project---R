@@ -7,15 +7,16 @@ The goal is to demonstrate data science skills, from preprocessing and analysis 
 
 ## Data Sources and Preparation
 ### Data Sources
-The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/kartik2112/fraud-detection). Due to size limitations, the dataset is not uploaded to this repository. To reproduce the project, download the dataset directly from the provided link.
+The dataset was sourced from Kaggle. 
 
 ### Data Format
 The dataset includes various fields such as transaction details, customer demographics, and merchant information. Key variables include `trans_date_trans_time`, `amount`, `gender`, `state`, `merchant`, and `category`.
 
 ## File and Folder Structure
-- `project_code.Rmd`: RMarkdown file containing all code for data preparation, analysis, and visualization.
-- `README.md`: This file, describing the project and reproduction instructions.
+- `code/`: Contains the RMarkdown file containing all code for data preparation, analysis, and visualization.
+- `data/fraudTest.zip`: Directory where the dataset is stored. To use the dataset, download the folder and unzip it.
 - `plots/`: Directory for saving output plots and visualizations (generated during execution).
+
 
 ### Preparation Steps
 1. Verified the dataset for missing values and correct data types; no missing values were found.
